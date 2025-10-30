@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AppProvider from "./context/AppProvider";
 import Navbar from "./components/Navbar";
-import Products from "./Pages/Products";
-import Home from "./Pages/Home";
-import Cart from "./Pages/Cart";
-import About from "./Pages/About";
-import Checkout from "./Pages/Checkout";
-import OrderSuccess from "./Pages/OrderSuccess";
+import Products from "./pages/Products";
+import Home from "./pages/Home";
+import Cart from "./pages/Cart";
+import About from "./pages/About";
+import Checkout from "./pages/Checkout";
+import OrderSuccess from "./pages/OrderSuccess";
 
 function App() {
   return (
